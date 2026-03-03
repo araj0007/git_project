@@ -1,0 +1,13 @@
+    git add .
+    git commit -m "Initial commit"
+    git push origin master # Or 'main', depending on your repo's default
+
+You have no files to commit (empty repository): If you've run git init but haven't added any actual files (Git doesn't track empty directories), the commit won't register.
+
+    Solution: Create a file (like a README.md), add it, and commit it:
+    bash
+
+    touch README.md
+    git add README.md
+    git commit -m "Add README file"
+    git push origin master # Or 'main'
